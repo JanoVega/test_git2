@@ -17,23 +17,35 @@
     - en caso de que se pierda se pude resetear en las configuraciones 
   ### Guardar las credenciales localmente  
     - para configurar el nombre de usuario:
-      ```git config --global username "user_name" ```
+    
+  ```git config --global username "user_name" ```
+  
     - para configurar el email:
-      ``` git config --global user.email "eser_email"```
+    
+  ``` git config --global user.email "eser_email"```
+  
     - la contraseña(token) se ajusta mas tarde
   ### Para crear un repositorio local
     - crear un nuevo repo en github y guardar el <link>
     - para inicializar git en un directorio:
-      ```git init```
+    
+  ```git init```
+      
     - para añadir archivos     
-      ```git add .```
+    
+  ```git add .```
       ó
-      ```git add ejemplo1.py ejemplo2.txt ejemplo3.md```
+      
+  ```git add ejemplo1.py ejemplo2.txt ejemplo3.md```
       
     - para enlazar el directorio local al repositorio en github
-      ```git remote add origin <link>```
+    
+  ```git remote add origin <link>```
+  
     - para subir los datos al repo en la rama "master"
-      ```git push -u origin master```
+    
+  ```git push -u origin master```
+      
     - para volver a una version anterior
     //por investigar, estams trabajando para usted//
 

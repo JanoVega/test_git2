@@ -49,8 +49,24 @@
     
   ```git push -u origin master```
       
-  - para volver a una version anterior
-    //por investigar, estams trabajando para usted//
+  - para volver a una version anterior  
+
+  * revisar los comits
+    ```git log```
+
+    revisamos el *hash* del commit al que nos interesa volver
+
+  * borrar todos los cambios a partir de x commit:
+    ```git reset --hard commit-hash```
+
+  * deshacer a partir a partir de un commit x dejando los cambios que habian como un
+    nuevo commit para hacerle modificaciones:
+    ```git reset --soft commit-hash```
+  
+  * deshacer los cambios a partir de un commit x pero dejando los cambios en el
+    directorio de trabajo:
+    ```git reset```
+  
   - como añadir colaboradores a un repo privado
 
 ## Conexión a Khipu

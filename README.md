@@ -19,7 +19,7 @@
   ### Guardar las credenciales localmente  
   - para configurar el nombre de usuario:
     
-  ```git config --global username "user_name" ```
+  ```git config --global user.name "user_name" ```
   
   - para configurar el email:
     

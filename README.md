@@ -49,7 +49,7 @@
     
   ```git push -u origin master```
       
-  - para volver a una version anterior  
+  ### para volver a una version anterior  
 
   * revisar los comits
     ```git log```

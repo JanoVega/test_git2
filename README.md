@@ -36,6 +36,10 @@
   ```git add .```
      
   ```git add ejemplo1.py ejemplo2.txt ejemplo3.md```
+  
+  - se hace un commit con un comentario para empaquetar antes de subir  
+
+  ```git commit -m "Initial commit"```
       
   - para enlazar el directorio local al repositorio en github
     
@@ -47,6 +51,7 @@
       
   - para volver a una version anterior
     //por investigar, estams trabajando para usted//
+  - como añadir colaboradores a un repo privado
 
 ## Conexión a Khipu
 * dirección del servidor: 200.13.6.14

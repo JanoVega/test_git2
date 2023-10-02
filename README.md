@@ -13,6 +13,7 @@
   ### Crear una cuenta en github
   - https://github.com/
   ### Crear un token personal
+  ir a *settings* > *developer settings* > *Personal access tokens* > *Classic*
   - no olvidar guardar el token en un .txt para usarlo despues
   - en caso de que se pierda se pude resetear en las configuraciones 
   ### Guardar las credenciales localmente  
